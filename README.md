@@ -93,21 +93,24 @@ Usage
 
 3.Manage your tasks by adding, editing, deleting, and filtering them.
 
-API Endpoints
+## API Endpoints
+
 The following API endpoints are used in the application:
 
--POST /myapp/register/ - Register a new user.
--POST /myapp/login/ - Log in a user.
--GET /search?user_id=<user_id> - Retrieve tasks for the logged-in user.
--POST /search/ - Add a new task.
--PATCH /search/<id>/ - Update a task.
--DELETE /search/<id>/ - Delete a task.
+- **POST** `/myapp/register/` - Register a new user.
+- **POST** `/myapp/login/` - Log in a user.
+- **GET** `/search?user_id=<user_id>` - Retrieve tasks for the logged-in user.
+- **POST** `/search/` - Add a new task.
+- **PATCH** `/search/<id>/` - Update a task.
+- **DELETE** `/search/<id>/` - Delete a task.
 
-Folder Structure
-frontend/: Contains the React frontend code.
-    components/: Reusable UI components such as Todolist, Todosearch, and Todostatus.
-    pages/: Page components such as Login, Register, and Todomain.
-    App.js: Main application component.
-    index.js: Entry point of the React application.
-backend/: Contains the Django backend code.
-    myapp/: Django app containing models, serializers, views, and URLs.
+## Folder Structure
+
+- **frontend/**: Contains the React frontend code.
+  - **components/**: Reusable UI components such as `Todolist`, `Todosearch`, and `Todostatus`.
+  - **pages/**: Page components such as `Login`, `Register`, and `Todomain`.
+  - **App.js**: Main application component.
+  - **index.js**: Entry point of the React application.
+
+- **backend/**: Contains the Django backend code.
+  - **myapp/**: Django app containing models, serializers, views, and URLs.
