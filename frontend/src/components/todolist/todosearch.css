@@ -1,0 +1,120 @@
+body{
+    background-image: linear-gradient(90deg,rgb(76, 230, 70),rgb(34, 204, 216));
+    font-family: 'Arial', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    width: 98vh;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+.maincontainer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#title{
+    text-align: center;
+    color: #3e3e3e;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+    width: 80vh;
+}
+#inputbox{
+    margin-left: 35px;
+    padding: 15px 70px;
+    text-align:start;
+    border: none;
+    border-radius: 7px;
+    outline-color: #ccc;
+
+}
+#btn{
+    padding: 15px 25px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: rgb(46, 222, 46);
+}
+#taskbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90vh;
+    border-radius: 15px;
+}
+
+
+.checkbox{
+    margin-left: 20px;
+}
+.tasktext{
+    margin-right: 20px;
+    color: #3e3e3e;
+    margin-top: 10px;
+}
+
+.btn2{
+    height: 25px;
+    padding:5px 10px;
+    text-align: center;
+    color: white;
+    background: #2196f3;
+    border:none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn2:hover{
+    background-color: rgb(230, 115, 7);
+}
+.btn3{
+    height: 25px;
+    padding:5px 10px;
+    text-align: center;
+    color: white;
+    background: #2196f3;
+    border:none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn3:hover{
+    background-color: rgb(228, 27, 30);
+}
+
+
+
+.container2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.btncontainer{
+    display: flex;
+}
+#btn5{
+    padding:15px 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+#btn5:hover{
+    background-color: rgb(46, 222, 4)
+}

@@ -1,0 +1,46 @@
+.status0{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.status1{
+    display: flex;
+}
+.status2{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.status3{
+    font-size: 14px;
+    color: crimson;
+    font-weight: 600;
+}
+.status4{
+    margin-left: 10px;
+    border: none;
+    width: 110px;
+    border-radius: 10px;
+}
+.status5{
+    margin-left: 15px;
+    margin-right: 60px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.logoutuser4box{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.logoutuser4{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+  }
+  .logoutuser4:hover{
+    background-color: red;
+    color: white;
+  }
